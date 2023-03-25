@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    height: 50px;
+    border-bottom: 2px solid blue;
+    width: 100%;
+    z-index: 999;
+}
+
+.topHeader{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+}
+.welcomeNote{
+    font-weight: 300;
+    color: black;
+    font-size: 14px;
+    flex: 10;
+}
+.socialIcons{
+    flex: 2;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: black;
+    border-bottom: 2px solid orangered;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.iconList{
+    color: white;
+    font-size: 14px !important;
+    cursor: pointer;
+}
+.middleNavSession{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo{
+    flex: 3;
+}
+.utilitiesContainer{
+    flex: 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.utilitiesOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.utilityIconContainer{
+    background-color: rgb(49, 100, 240);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 15px;
+}
+.utilityOneIcon{
+    font-size: 18px !important;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+}
+.utilityContacts{
+    display: flex;
+    flex-direction: column;
+}
+.utilityContacts p{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.utilityIconContainer2{
+    background-color: rgb(49, 100, 240);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.utilitiesTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.utilitiesTwoIcon{
+    font-size: 18px !important;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+}
+.utilitiesThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.utilityIconContainer3{
+    background-color: rgb(49, 100, 240);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 15px;
+}
+.utilitiesEmail{
+    display: flex;
+    flex-direction: column;
+}
+.utilitiesEmail p{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+.utilitiesThreeIcon{
+    font-size: 18px !important;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+}
+.utilitiesAddress{
+    display: flex;
+    flex-direction: column;
+}
+.utilitiesAddress p{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+.bottomNavContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    margin-top: 20px;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+.ListItems{
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 18px 20px;
+    cursor: pointer; 
+}
+.ListItems:hover{
+    background-color: rgb(49, 100, 240);
+    color: white;
+    padding: 18px 20px;
+    transition: 1s all ease;
+}

@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.bodyContainer{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: flex-start;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.middleSession{
+    flex: 1;
+}
+.leftSession{
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+
+}
+
+.leftSession h2{
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: rgb(59, 59, 59);
+}
+
+.leftSession p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(59, 59, 59);
+    line-height: 1.5;
+}
+
+.leftsessionDesc{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(59, 59, 59);
+}
+
+.scheduleItemsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.scheduleItems{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.items h6{
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 300;
+
+}
+
+.scheduleItems p{
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 2px;
+    line-height: 1.5;
+}
+
+.mark{
+    font-size: 16px !important;
+}
+
+.rightSession{
+    flex: 4;
+}
+
+.schedule{
+   background-color: rgb(53, 53, 53);
+   padding: 20px  30px 50px 30px;
+}
+.scheduleTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 0.1px solid rgb(219, 219, 219);
+}
+
+.scheduleTime p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.middleSessionContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 40px;
+    justify-content: center;
+    position: relative;
+}
+.middleSessionContainer h1{
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.demark{
+    height: 1px;
+    width: 2%;
+    background-color: black;
+    padding-top: 3px;
+    margin-top: 20px;
+}
+.middleSessionContainer p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.middleImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.arrowback{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    cursor: pointer;
+    z-index: 10;
+    transform: scalex(-1);
+}
+.arrowfront{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    transform: scalex(-1);
+    cursor: pointer;
+    z-index: 10;
+}
+.middleImage img{
+    object-fit: cover;
+    padding: 10px;
+}
+
+.serviceListContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.serviceIconList{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.icon{
+    background-color: rgb(49, 100, 240);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-right: 15px;
+}
+.serviceIcon{
+    font-size: 18px !important;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+}
+.sericeListContent h1{
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.sericeListContent p{
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 2px;
+    line-height: 1.5;
+}
+.testomonialServiceList{
+    position: relative;
+    height: 400px;
+    z-index: -999px;
+    justify-content: center;
+    align-items: center;
+}
+.testimonialImage{
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+.testimonialListContent{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
